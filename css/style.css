@@ -131,9 +131,8 @@ h6 {
 }
 
 #topbar .social-links {
-  /*  comment by Nizreen
-  text-align: right;*/
-  text-align:left;
+  text-align: left;
+  float:left;
 }
 
 #topbar .social-links a {
@@ -151,7 +150,7 @@ h6 {
   border-right: 0;
 }
 #topbar .details {
- 
+  /*float: right;*/
   text-align: right;
 }
 
@@ -166,10 +165,10 @@ h6 {
 }
 
 #topbar .details a {
-  color: #535074;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
+  /*color: #535074;*/
+  /*padding: 4px 12px;*/
+  /*display: inline-block;*/
+  /*line-height: 1px;*/
 }
 #topbar .details a:first-child {
   border-left: 0;
