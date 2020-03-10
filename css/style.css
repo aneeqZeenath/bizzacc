@@ -38,11 +38,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  color: #010f32;
 }
 
 /* Back to top button */
@@ -132,6 +134,7 @@ h6 {
   position: fixed;
   align-content: center;
   display: inline-block;
+  height: 50px;
 
 }
 
@@ -144,7 +147,7 @@ h6 {
 
 #topbar .social-links a {
 
-  color: #535074;
+  color: #ffffff;
   padding: 30px 20px 0px 0px;
   display: inline-block;
   line-height: 1px;
@@ -152,7 +155,7 @@ h6 {
 
 #topbar .social-links a:hover {
 
-  color: #010f32;
+  color: #ffffff;
   alignment-baseline: center;
   padding: 30px 20px 0px 0px;
 
@@ -166,13 +169,13 @@ h6 {
 #topbar .details {
   /*float: right;*/
   text-align: right;
-  padding-bottom: 20px;
+ /* padding-bottom: 20px;*/
 
 }
 
 #topbar .details a {
 
-  color: #535074;
+  color: #ffffff;
   padding: 30px 20px 0px 0px;
   display: inline-block;
   line-height: 1px;
@@ -182,7 +185,7 @@ h6 {
 
 
 #topbar .details a:hover {
-  color: #010f32;
+  color: #ffffff;
   align-content: center;
 
 }
@@ -255,14 +258,28 @@ h6 {
 --------------------------------------------------------------*/
 
 
+
+.btn-primary:hover,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #ffffff;
+  border-color: #4c8bff;
+  color: #4c8bff;
+}
+
 /* Slider */
 #carouselExampleIndicators {
   padding-top: 150px;
 }
 
+.slide {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
 /*carousel indicators*/
 #carouselExampleIndicators a {
-  background: #010f32 repeat scroll 0 0;
+  background: #ff4b5a repeat scroll 0 0;
   border: 5px none;
   border-radius: 50%;
   height: 30px;
@@ -272,8 +289,8 @@ h6 {
 }
 /*active slide indicator*/
 #carouselExampleIndicators .active {
-  background: #ffffff repeat scroll 0 0;
-  border: 0px solid #010f32;
+  background: #ff4b5a repeat scroll 0 0;
+  border: 0px solid #ffffff;
 }
 
 .carouselStyle{
@@ -282,6 +299,10 @@ h6 {
   left: 65%;
   padding-bottom: 10px;
 }
+
+
+
+
 
 #intro {
   width: 100%;
@@ -426,7 +447,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #010f32;
+  color: #4c8bff;
   text-decoration: none;
 }
 
@@ -460,13 +481,13 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #065e77;
+  color: #4c8bff;
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #292873;
+  color: #4c8bff;
 }
 
 .main-nav .drop-down > a:after {
@@ -604,7 +625,26 @@ h6 {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+/*----Get a Quote---*/
 
+
+.btn--radius-2 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-sizing: inherit;
+}
+.btn--red {
+  background: #ff4b5a;
+  color: #FFFFFF;
+}
+
+.btn--radius-2:hover {
+  background: #ffffff;
+  color: #ff4b5a;
+  border-color: #ff4b5a;
+
+}
 /* Sections Header
 --------------------------------*/
 
@@ -741,8 +781,8 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #010f32;
-  background: #010f32 ;
+  border: 3px solid #ff4b5a;
+  background: #ff4b5a;
   color: #fff;
   align-content: center;
 }
@@ -750,8 +790,8 @@ h6 {
 
 #social-media .cta-btn:hover {
   background: #FFFF;
-  border: 3px solid #010f32;
-  color: #010f32;
+  border: 3px solid #ff4b5a;
+  color: #ff4b5a;
 }
 
 
@@ -885,17 +925,19 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #010f32;
-  background: #010f32 ;
+  border: 3px solid #ff4b5a;
+  background: #ff4b5a;
   color: #fff;
   align-content: center;
 }
 
+
 #web-design .cta-btn:hover {
   background: #FFFF;
-  border: 3px solid #010f32;
-  color: #010f32;
+  border: 3px solid #ff4b5a;
+  color: #ff4b5a;
 }
+
 
 
 {
@@ -1026,16 +1068,19 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #010f32;
-  background: #010f32 ;
+  border: 3px solid #ff4b5a;
+  background: #ff4b5a;
   color: #fff;
+  align-content: center;
 }
+
 
 #application .cta-btn:hover {
   background: #FFFF;
-  border: 3px solid #010f32;
-  color: #010f32;
+  border: 3px solid #ff4b5a;
+  color: #ff4b5a;
 }
+
 
 
 {
@@ -1165,17 +1210,18 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #010f32;
-  background: #010f32 ;
+  border: 3px solid #ff4b5a;
+  background: #ff4b5a;
   color: #fff;
+  align-content: center;
 }
+
 
 #marketing-and-pr .cta-btn:hover {
   background: #FFFF;
-  border: 3px solid #010f32;
-  color: #010f32;
+  border: 3px solid #ff4b5a;
+  color: #ff4b5a;
 }
-
 
 {
   box-sizing: border-box;
@@ -1988,10 +2034,98 @@ h6 {
 }
 
 #IPpricing .card .btn:hover {
-  background: #010f32;
+  background: #ff4b5a;
 }
 
 
+/* Get Section
+--------------------------------*/
+
+#getQuote {
+  padding: 60px 0 40px 0;
+}
+
+#getQuote .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#getQuote .box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#getQuote .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#getQuote .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+#getQuote .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#getQuote .title a {
+  color: #111;
+}
+
+#getQuote .box:hover .title a {
+  color: #010f32;
+}
+
+#getQuote .description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#getQuote .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #ff4b5a;
+  background: #ff4b5a;
+  color: #fff;
+  align-content: center;
+}
+
+
+#getQuote.cta-btn:hover {
+  background: #FFFF;
+  border: 3px solid #ff4b5a;
+  color: #ff4b5a;
+}
+
+
+
+{
+  box-sizing: border-box;
+}
 
 
 
@@ -2084,7 +2218,7 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #535074;
+  color: #010f32;
 }
 
 #footer .footer-top .social-links a {
@@ -2229,7 +2363,7 @@ h6 {
 #footer .footer-top .form #errormessage {
   color: #fff;
   display: none;
-  background: red;
+  background: #010f32;
   text-align: center;
   padding: 15px;
   font-weight: 600;

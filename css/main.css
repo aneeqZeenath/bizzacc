@@ -271,7 +271,7 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
+  background: #010f32;
 }
 
 .bg-red {
@@ -295,11 +295,11 @@ h6 {
 }
 
 .bg-gra-03 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#08aeea), to(#b721ff));
-  background: -webkit-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
-  background: -moz-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
-  background: -o-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
-  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+  background: -webkit-gradient(linear, left bottom, right top, from(#010f32), to(#1718ff));
+  background: -webkit-linear-gradient(bottom left, #010f32 0%, #1718ff 100%);
+  background: -moz-linear-gradient(bottom left, #010f32 0%, #1718ff 100%);
+  background: -o-linear-gradient(bottom left, #010f32 0%, #1718ff 100%);
+  background: linear-gradient(to top right, #010f32 0%, #1718ff 100%);
 }
 
 /* ==========================================================================
@@ -383,6 +383,7 @@ h6 {
 /* ==========================================================================
    #BUTTON
    ========================================================================== */
+/*
 .btn {
   display: inline-block;
   line-height: 50px;
@@ -440,7 +441,7 @@ h6 {
 .btn--red:hover {
   background: #eb3746;
 }
-
+*/
 /* ==========================================================================
    #DATE PICKER
    ========================================================================== */
